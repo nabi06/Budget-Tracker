@@ -1,0 +1,143 @@
+body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+.main-cont{
+    display: flex;
+    gap: 20px;
+    
+}
+.small-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cont img{
+    width: 100px;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-cont{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:  20px;
+    border: 1px solid #ccc;
+    border-radius: 0.65rem;
+    box-shadow: 0px 0px 2px #ccc;
+}
+.head-cont{
+    text-align: center;
+    padding-right: 320px;
+
+}
+
+.head1 h3,
+.head2 h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+.head1 p {
+    margin: 0;
+    color: green;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.head2 p{
+    margin: 0;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.Info >h1{
+    position: relative;
+    padding-right: 200px;
+    margin-bottom: 5px;
+    
+}
+.Info >h1::before{
+    content: ''; /* Necessary for a pseudo-element */
+    position: absolute; /* Position absolutely within .info-details */
+    left: 0; /* Align to the left side */
+    top: 120%; /* Center vertically */
+    transform: translateY(-50%); /* Align precisely in the middle */
+    width: 400px; /* Width of the partial border */
+    height: 2px; /* Thickness of the border */
+    background-color: #ccc;
+}
+.Info button{
+    margin-left: 10px;
+}   
+.Info img{
+    
+    width: 20px;
+    height: 20px;
+}
+.Main-info{
+    margin-top: 20px;
+}
+.info-cont{
+    width: 250px;
+    height: 22px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 2px rgba#ccc;
+    border-radius: 0.65rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.trans-cont{
+    padding-right: 200px;
+}
+.trans-cont >h4{
+    position: relative;
+}
+.trans-cont > h4::before{
+    content: ''; /* Necessary for a pseudo-element */
+    position: absolute; /* Position absolutely within .info-details */
+    left: 0; /* Align to the left side */
+    top: 120%; /* Center vertically */
+    transform: translateY(-50%); /* Align precisely in the middle */
+    width: 400px; /* Width of the partial border */
+    height: 2px; /* Thickness of the border */
+    background-color: #ccc;
+}
+.trans1 input{
+    border-radius: 4px;
+    width: 200px;
+    padding: 3px;
+    margin-left: 10px;
+}
+.trans1 select{
+    margin-left: 10px;
+}
