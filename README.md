@@ -1,6 +1,14 @@
-# React + Vite
+# Budget Tracker 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Overview 
+This is a budget tracker where we will tracking the our income expenses and also can keep a record of all transactions made fromt the beginning 
+## Technologies used 
+   Javascript 
+   Html 
+   Css 
+   # Frameworks
+    React + Vite 
+   
 
 Currently, two official plugins are available:
 
